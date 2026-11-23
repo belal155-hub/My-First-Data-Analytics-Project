@@ -1,5 +1,7 @@
-name = "Belal Ahmad"
-city = "Muzaffarpur"
-email = "belal123@gmail.com"
-age = 24
-print(f"My name is {name} I live in {city} I am {age} years old and My email is {email}")
+name = "   BELAL AHMAD  "
+email = "  BELAL123@GMAIL.COM"
+city = "  MUZAFFARPUR"
+
+print(f"Customer Name: {name.lower().lstrip().rstrip().title()}")
+print(f"Email: {email.lower().strip()}")
+print(f"City: {city.lower().strip().title()}")
